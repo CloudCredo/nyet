@@ -1,5 +1,4 @@
 require 'rspec/core/rake_task'
-require 'ci/reporter/rake/rspec'     # use this if you're using RSpec
 
 RSpec::Core::RakeTask.new(:spec) do |c|
   c.rspec_opts = %w(--format documentation --color)
