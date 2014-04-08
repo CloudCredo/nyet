@@ -8,7 +8,6 @@ require "support/user_with_org"
 require "support/test_app"
 require "support/service"
 require "support/cf_helpers"
-require "blue-shell"
 
 module MonitoringHelpers
   def monitoring
