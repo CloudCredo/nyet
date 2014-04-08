@@ -17,7 +17,7 @@ describe "Loggregator", component: 'loggregator' do
   let(:app_name) { "loggregator-#{language}" }
   attr_reader :route
 
-  it "gets log messages from an app" do
+  xit "gets log messages from an app" do
     begin
       regular_user.clean_up_app_from_previous_run(app_name)
       @app = regular_user.create_app(@space, app_name, CUSTOM_VAR: app_content)
