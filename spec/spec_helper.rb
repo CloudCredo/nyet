@@ -17,5 +17,4 @@ end
 
 RSpec.configure do |config|
   config.include(MonitoringHelpers)
-  config.include(BlueShell::Matchers)
 end
